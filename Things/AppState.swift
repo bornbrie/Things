@@ -18,7 +18,7 @@ class AppState {
             if signedIn {
                 let email = Auth.auth().currentUser?.email
                 let uid = Auth.auth().currentUser?.uid
-                set(email, uid: uid)
+                set(email, and: uid)
             }
         }
     }
@@ -26,7 +26,7 @@ class AppState {
     var email: String?
     var uid: String?
     
-    private func set(_ email: String?, uid: String?) {
+    private func set(email: String?, and uid: String?) {
         self.email = email
         self.uid = uid
     }

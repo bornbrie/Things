@@ -881,7 +881,6 @@
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes"/>
-                                                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                                     <variation key="default">
                                                         <mask key="constraints">
                                                             <exclude reference="u1b-uD-mx4"/>
@@ -1031,7 +1030,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="iIB-yb-tNw" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Shared" id="svL-zU-RSx"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="NcH-55-Z2u">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NcH-55-Z2u">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.1878944723" green="0.010705847080000001" blue="0.80206948140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1050,7 +1049,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBottomBarWhenPushed="YES" id="pvz-1f-Z7h" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="AuA-sj-0h4">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AuA-sj-0h4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                         <color key="tintColor" red="0.45561412709999999" green="0.12609093939999999" blue="0.78770833330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1155,7 +1154,7 @@
             <objects>
                 <navigationController id="Q8h-tD-XiV" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" id="bvT-7A-DTU"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="zRN-qH-vpq">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zRN-qH-vpq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.45561412709999999" green="0.12609093939999999" blue="0.78770833330000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -1173,7 +1172,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g6Z-X6-WaO" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="WvL-u6-rnw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WvL-u6-rnw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1191,7 +1190,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="407-nb-JKV" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cse-1V-ewI">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cse-1V-ewI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
