@@ -10,5 +10,7 @@ target 'Things' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'Fabric'
+  pod 'Crashlytics'
 
 end
