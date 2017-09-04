@@ -801,6 +801,7 @@
 				CODE_SIGN_ENTITLEMENTS = Things/Things.entitlements;
 				DEVELOPMENT_TEAM = 67AJUH7978;
 				INFOPLIST_FILE = Things/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exotericdesign.things;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -817,6 +818,7 @@
 				CODE_SIGN_ENTITLEMENTS = Things/Things.entitlements;
 				DEVELOPMENT_TEAM = 67AJUH7978;
 				INFOPLIST_FILE = Things/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exotericdesign.things;
 				PRODUCT_NAME = "$(TARGET_NAME)";

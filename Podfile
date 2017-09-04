@@ -1,5 +1,3 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
 
 target 'Things' do
   
@@ -7,10 +5,19 @@ target 'Things' do
   platform :ios, '10.0'
   use_frameworks!
   
+  # Start Firebase Dependencies
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  # End Firebase Dependencies
+  
+  # Start Fabric Dependencies
   pod 'Fabric'
   pod 'Crashlytics'
+  # End Fabric Dependencies
+  
+  # Start Icon Dependencies
+  pod 'FontAwesome.swift'
+  # End Icon Dependancies
 
 end

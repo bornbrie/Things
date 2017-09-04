@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseDatabase
+import Crashlytics
 
 enum AttributesButtonStyle {
     case thingButtons
@@ -56,6 +57,8 @@ class AttributesViewController: EDTableViewController {
         setBarButtonItems(.thingButtons)
         
         setIcon()
+        
+        Answers.logCustomEvent(withName: "Opened Thing", customAttributes: thing?.dict())
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -458,12 +461,9 @@ class AttributesViewController: EDTableViewController {
     
     @objc func insertNewTextAttribute() {
         
-        let newObject = Object(type: .attribute)
-        let newTextAttribute = TextAttribute(from: newObject)
-        
         guard let thing = self.thing else { fatalError() }
         
-        newTextAttribute.parent = thing.id
+        let newTextAttribute = TextAttribute(text: "", parent: thing)
         
         DispatchQueue.main.async {
             self.tableView.beginUpdates()
